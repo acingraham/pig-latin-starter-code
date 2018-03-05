@@ -9,7 +9,7 @@
 $( document ).ready(function() {
 	$('#submit').click(function(){
 		var word = $('#input').val();
-		$('#display').append(word);
+		$('#display').text(word);
 	});
 });
 
